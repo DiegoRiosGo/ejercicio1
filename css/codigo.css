@@ -13,21 +13,21 @@ body {
   }
   
   li a.active {
-    background-color: #da0041;
+    background-color: #d376ff;
     color: rgb(253, 253, 253);
   }
   
   li a:hover:not(.active) {
     background-color: rgb(32, 32, 32);
-    color: rgb(179, 179, 179);
+    color: rgb(190, 190, 190);
   }  
 
-.menu {
+ .menu{
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 20%;
-    background-color: #554e4e;
+    background-color: #383737;
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
