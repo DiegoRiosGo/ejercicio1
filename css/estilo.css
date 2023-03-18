@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.interfaz {
+width: 400px;
+background-color: rgb(255, 255, 255);
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: 'arial';
+color: black;
+}
+body {
+    width: 400px;
+    background-image: url(/Gato1.avif);
+    background-size: cover;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'arial';
+    color: black;
+    }
