@@ -26,10 +26,25 @@ section h2 {
   margin-bottom: 6px;
 }
 
+.h2e{
+  font-size: 35px;
+  font-weight: 50;
+  margin-bottom: 6px;
+}
+section h1 {
+  font-size: 50px;
+  font-weight: 50;
+  margin-bottom: 6px;
+}
+
 section p {
   font-size: 13px;
   font-weight: 50;
   margin-bottom: 5px;
+}
+
+.pe{
+  font-size: 20px;
 }
 
 section a {
@@ -45,8 +60,16 @@ section a {
 }
 
 section img {
-  height: 50%;
+  height: 200px;
+  width: 330px;
   border-radius: 10px;
+}
+
+.img2{
+  height: 200px;
+  width: 330px;
+  border-radius: 10px;
+
 }
 
 section:nth-child(4){
@@ -70,9 +93,9 @@ section:nth-child(1) {
       /*justify-content:center;*/
   }
 
-  section>img {
+  /*section>img {
       height: 50%;
-  }
+  }*/
   .contenedor-texto{
       text-align: center;
   }
