@@ -1,22 +1,11 @@
+/* REGISTRO */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.interfaz {
-width: 450px;
-background-color: rgb(26, 70, 71);
-padding: 30px;
-margin: auto;
-margin-top: 10px;
 
-font-family: 'calibri';
-color: rgb(255, 255, 255);
-
-  border: 2px solid #083e4e;
-  position: absolute;
-}
-body {
+.body {
     width: 400px;
     background-image: url(/img/que-es-una-veterinaria.jpg);
     background-size: cover;
@@ -26,6 +15,22 @@ body {
     border-radius: 4px;
     font-family: 'arial';
     color: black;
+    width: auto;
+
+
+
+    }
+    .interfaz{
+    /* INTERFAZ*/
+    height: auto;
+    background-color: rgb(33, 99, 100);
+    padding: 10px;
+    margin: 480px;
+    margin-top: 5px;
+    font-family: 'calibri';
+    color: rgb(255, 255, 255);
+    border: 2px solid #083e4e;
+    position: absolute;
     }
 .controls{
     width: 200px;
@@ -44,8 +49,17 @@ body {
 }
 
 .botons{
-    height: 20px;
-    bottom
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .interfaz p{
     color: white;
@@ -53,5 +67,73 @@ body {
     font-family: 'calibri';
     border: 2px;
     height: 20px;
+    
 
+}
+.pete{
+    color: aliceblue;
+}
+  /* -------------------------html.LOGIN ----------------------------*/
+
+.cuerpo{
+   font-family: 'calibri';
+   text-align: center;
+}
+.pagina{
+    text-decoration: none;
+    color:#4CAF50;
+    margin-left: 20px;
+}
+
+.crear_cuenta{
+    text-decoration: none;
+    color: #4CAF50;
+}
+/*-------------------------INICIO.html------------------*/
+.interfaz_inicio{
+    font-family: 'calibri';
+    font-size: large;
+    font-style: obliquex    ;
+}
+
+/*------------SLIDER---------*/
+
+.slider{
+width: auto;
+height: 500px ;
+overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    animation: cambio 30s infinite
+    alternate linear;
+    width: 400%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+
+}
+
+@keyframes cambio{
+    0%{margin-left:0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -100%;}
+    85%{margin-left: -100%;}
+
+    90%{margin-left: 0;}
+    100%{margin-left: 0;}
 }
