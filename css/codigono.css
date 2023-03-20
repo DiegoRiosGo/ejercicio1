@@ -26,9 +26,11 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 20%;
+    width: 8%;
     background-color: #383737;
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
   }
+
+ 
