@@ -45,6 +45,7 @@ section p {
 
 .pe{
   font-size: 20px;
+  text-align: center;
 }
 
 section a {
@@ -134,3 +135,10 @@ li a:hover:not(.active) {
   position: fixed; /* Make it stick, even on scroll */
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
+
+/*
+.tam{
+  width: 8%;
+  max-width: 1000px;
+  height: 100%;
+}*/
