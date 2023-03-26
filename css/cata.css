@@ -115,7 +115,7 @@ li a {
   text-decoration: none;
 }
 
-li a.active {
+div a.active {
   background-color: #d376ff;
   color: rgb(253, 253, 253);
 }
@@ -142,3 +142,22 @@ li a:hover:not(.active) {
   max-width: 1000px;
   height: 100%;
 }*/
+
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #635a5a;
+}
